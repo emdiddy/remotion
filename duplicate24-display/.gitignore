@@ -2,3 +2,4 @@ node_modules/
 .remotion/
 out/*
 !out/DisplayLoop.mp4
+!out/BentoLoop.mp4
