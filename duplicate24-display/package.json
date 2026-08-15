@@ -1,0 +1,22 @@
+{
+  "name": "duplicate24-display",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vier Farben, ein Moment - 10s Loop fuer den Duplicate24 Schaufenster-Screen",
+  "scripts": {
+    "studio": "remotion studio src/index.jsx",
+    "render": "node render.mjs",
+    "render:cli": "remotion render src/index.jsx DisplayLoop out/duplicate24-display.mp4",
+    "still": "remotion still src/index.jsx DisplayLoop out/frame.png --frame=130"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.0",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "@remotion/renderer": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  }
+}
